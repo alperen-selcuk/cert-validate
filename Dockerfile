@@ -1,8 +1,8 @@
 FROM ubuntu
 
-FROM apt-get update -y
+RUN apt-get update -y
 
-FROM apt-get install openssl -y
+RUN apt-get install openssl -y
 
 COPY . .
 
